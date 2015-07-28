@@ -1,3 +1,13 @@
-<h1>This is my page.</h1>
-<h2>Hope you like it.</h2>
-<h3>It's a little boring, but meets the requirements!</h3>
+<h1>Porn Star Name.</h1>
+<h2>Give it to me.</h2>
+<h3>Enter your first pet's name and street you grew up on and get down with your bad self!</h3>
+
+<%= @names.each do |name| %>
+	<div>
+		<h1><%= name.pet %></h1><br />
+		<h1><%= name.street %></h1><br />
+	</div>
+
+	<hr />
+<% end %>
+
